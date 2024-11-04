@@ -1,6 +1,9 @@
 name: CI Workflow
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main  # Fix the spacing here
 
 jobs:
   build:
@@ -14,3 +17,16 @@ jobs:
         run: |
           echo "Running tests"
           # Add your testing commands here
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code  # Fix the spacing here
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test  # Fix indentation here
