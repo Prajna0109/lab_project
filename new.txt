@@ -1,0 +1,12 @@
+Hey
+This
+is 
+a 
+text
+file
+created 
+to
+implement 
+git 
+commands 
+of managing the files and projects.
