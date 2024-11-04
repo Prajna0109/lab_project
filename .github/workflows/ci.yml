@@ -1,9 +1,9 @@
 name: CI Workflow
 
-on:
-  push:
-    branches:
-      - main  # Fix the spacing here
+on: [push, pull_request]
+  # push:
+  #   branches:
+  #     - main  # Fix the spacing here
 
 jobs:
   build:
