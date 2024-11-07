@@ -10,3 +10,5 @@ implement
 git 
 commands 
 of managing the files and projects.
+
+trying to implement the fundamentals of detached head state commits.
